@@ -13,4 +13,4 @@ All micro service __MUST__ have a `/_health` HTTP URL accessible on port 80 with
 | Health status | Response body | Response HTTP code | Response content type |
 |---------------|------------------------------------------------------------------|--------------------|---------------------------------|
 | Success | `{"alive": true}` | 200 | `application/json; charset=utf-8` |
-| Failed | `{"alive": false, "message": "Error description, human readable"}` | 500 | `application/json; charset=utf-8` |
+| Failed | `{"alive": false, "message": "Error description, human readable"}` | 503 | `application/json; charset=utf-8` |
