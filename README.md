@@ -21,7 +21,7 @@ This documents is used to help the newbies of the organization make the right ch
 # How To Contribute
 
 Contribute by submitting a PR in GitHub.  
-_(with the right tags as much as possible)_
+_(with the right labels as much as possible)_
 
 __Important__  
 Issues are disabled because all discussions must be done arround a PR. :wink: 
