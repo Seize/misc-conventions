@@ -1,20 +1,20 @@
-# :card_box: Conventions
+# :barber: Conventions
 
 :wave: Welcome to the documentation of the conventions.  
 This documents is used to help the newbies of the organization make the right choices.
 
 ## Summary
 
-### :arrow_forward: Tools
+### Tools
 
 * [About GIT](conventions/tools/git.md)
 
-### :arrow_forward: Languages
+### Languages
 
 * [About Go](conventions/languages/go.md)
 * [About Javascript](conventions/languages/javascript.md)
 
-### :arrow_forward: Architecture
+### Architecture
 
 * [About micro services](conventions/architecture/micro-services.md)
 
