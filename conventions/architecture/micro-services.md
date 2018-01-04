@@ -5,6 +5,7 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 ## Summary
 
 * [Health check](#health-check)
+* [Metrics](#metrics)
 
 # Health check
 
@@ -14,3 +15,13 @@ All micro service __MUST__ have a `/_health` HTTP URL accessible on port 80 with
 |---------------|------------------------------------------------------------------|--------------------|---------------------------------|
 | Success | `{"alive": true}` | 200 | `application/json; charset=utf-8` |
 | Failed | `{"alive": false, "message": "Error description, human readable"}` | 503 | `application/json; charset=utf-8` |
+
+# Metrics
+
+All micro service __MUST__ have a `/_metrics` HTTP URL accessible on port 80 with code 200.  
+These metrics __MUST__ be readable by [Prometheus](https://prometheus.io/).  
+You __MUST__ read and apply the [best practices of naming](https://prometheus.io/docs/practices/naming/).
+
+## Note for Go programmers
+
+It's __RECOMMENDED__ to use the [Prometheus client for Go](https://github.com/prometheus/client_golang).
