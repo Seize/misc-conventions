@@ -9,7 +9,7 @@ The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL 
 
 # Health check
 
-All micro service __MUST__ have a `/_health` HTTP URL accessible on port 80 with these following responses according to the statutes:
+All micro service __MUST__ have a `/healthz` HTTP URL accessible on port 80 with these following responses according to the statutes:
 
 | Health status | Response body | Response HTTP code | Response content type |
 |---------------|------------------------------------------------------------------|--------------------|---------------------------------|
@@ -18,7 +18,7 @@ All micro service __MUST__ have a `/_health` HTTP URL accessible on port 80 with
 
 # Metrics
 
-All micro service __MUST__ have a `/_metrics` HTTP URL accessible on port 80 with code 200.  
+All micro service __MUST__ have a `/metrics` HTTP URL accessible on port 80 with code 200.  
 These metrics __MUST__ be readable by [Prometheus](https://prometheus.io/).  
 You __MUST__ read and apply the [best practices of naming](https://prometheus.io/docs/practices/naming/).  
 You __MUST__ implement 10 metrics at least.  
