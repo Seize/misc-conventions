@@ -14,3 +14,4 @@
 |       tf-  |     For Terraform files                        |
 |       pkr- |     For Packer files                           |
 | test-      | Only POC, not used in production               |
+| misc-      | Misc informations                              |
