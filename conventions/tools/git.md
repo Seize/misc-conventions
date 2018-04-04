@@ -8,6 +8,7 @@
 | service-   | Back-end service application(s)                |
 | func-      | Function (example: lambda)                     |
 | frontend-  | Front-end application(s)                       |
+| gfx-       | Graphics tool(s) and asset(s)                  |
 | mobile-    | Mobile application(s)                          |
 | docker-    | Docker images                                  |
 | infra-     | Infrastructure as code                         |
