@@ -28,4 +28,5 @@ Issues are disabled because all discussions must be done arround a PR. :wink:
 
 # Maintainers
 
+- :octocat: [Sébastien Kurtzemann](https://github.com/skurtzemann) - [@sebelee](https://twitter.com/sebelee)
 - :octocat: [Julien Breux](https://github.com/JulienBreux) - [@JulienBreux](https://twitter.com/JulienBreux)
