@@ -17,6 +17,7 @@
 | test-      | Only POC, not used in production               |
 | misc-      | Misc informations                              |
 | build-     | Build System tools                             |
+| go-        | Go packages                                    |
 
 
 ## Workflow
