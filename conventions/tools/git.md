@@ -18,6 +18,7 @@
 | misc-      | Misc informations                              |
 | build-     | Build System tools                             |
 | go-        | Go packages                                    |
+| docs-      | Documentation repository                       |
 
 
 ## Workflow
